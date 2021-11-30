@@ -30,6 +30,8 @@
     <!--====== Style css ======-->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
 
 </head>
 
@@ -109,7 +111,7 @@
     <!--====== SERVICES PART START ======-->
 
     <section id="service" class="services-area">
-        <div class="container">
+        <div class="container" style="text-align: left;">
             <div class="row" style="margin-bottom: 50px;">
                 <div class="col-lg-6" style="padding: 70px 10px 70px 10px;">
                     <div class="section-title pb-10">
@@ -162,6 +164,26 @@
                 <div class="col-lg-6" style="padding: 70px 10px 70px 10px;">
                     <div class="section-title pb-10">
                         <h4 class="title">ทักษะ</h4>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <img src="assets/images/logo-skill/html.png" alt="html" width="100" height="100">
+                            </div>
+                            <div class="col-lg-4">
+                                <img src="assets/images/logo-skill/css.png" alt="css" width="100" height="100">
+                            </div>
+                            <div class="col-lg-4">
+                                <img src="assets/images/logo-skill/bootstrap.png" alt="bootstrap" width="100" height="100">
+                            </div>
+                            <div class="col-lg-4">
+                                <img src="assets/images/logo-skill/js.png" alt="js" width="100" height="100">
+                            </div>
+                            <div class="col-lg-4">
+                                <img src="assets/images/logo-skill/database.png" alt="database" width="100" height="100">
+                            </div>
+                            <div class="col-lg-4">
+                                <img src="assets/images/logo-skill/wordpress.png" alt="wordpress" width="100" height="100">
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6" style="padding: 70px 10px 70px 10px;">
@@ -210,25 +232,346 @@
     <!--====== PRICING PART START ======-->
 
     <section id="pricing" class="pricing-area">
-        <div class="container ">
-            <div class="row justify-content-center ">
-                <div class="col-lg-6 ">
-                    <div class="section-title text-center pb-10 ">
-                        <h4 class="title ">แฟ้มสะสมผลงาน</h4>
-                        <p class="text ">ใช้สะสมผลงานที่หมดที่เคยผ่านมา</p>
-                    </div>
-                    <!-- section title -->
+        <div class="section section4" id="work">
+            <div class="portfolio clearfix">
+                <div id="portfolio-introduction" class="text-center">
+                    <h3 style="font-weight: 300px;">แฟ้มสะสมผลงาน</h3><br/><br>
+                    <p>ใช้สะสมผลงานที่หมดที่เคยผ่านมา</p>
                 </div>
-            </div>
-            <div class="row justify-content-center ">
-                <div class="col-lg-4 " style="margin-bottom: 20px;"><img src="assets/images/port/port001.jpg" alt=""></div>
-                <div class="col-lg-4 " style="margin-bottom: 20px;"><img src="assets/images/profile-photo001.jpg" alt=""></div>
-                <div class="col-lg-4 " style="margin-bottom: 20px;"><img src="assets/images/profile-photo001.jpg" alt=""></div>
-                <div class="col-lg-4 " style="margin-bottom: 20px;"><img src="assets/images/profile-photo001.jpg" alt=""></div>
+
+                <div id="portfolio-items" class="clearfix">
+
+
+                    <!-- start of a portfolio item -->
+                    <div class="item w4" style="margin: 5px;">
+                        <div class="hover-content">
+                            <h3>Onlynx.tech</h3>
+                        </div>
+                        <div class="hidden-item">
+                            <img src="assets/images/port/port001.jpg" title="onlynx" data-axisX="20" data-axisY="10">
+                        </div>
+                        <div class="modal fade portfolio-popup" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="portfolio-item-description">
+                                                <h3>Sankalana Holdings Website</h3>
+                                                <p>Website design and the concept development is done by PixelMock and it was a pleasure experience to work with Sankalana holdings to deliver something awesome</p>
+                                                <p>Concept design was developed using Adobe Photoshop and later customized using HTML, CSS and jQuery. </p>
+                                                <p>End product is powered with Wordpress.</p>
+                                                <div class="labels">
+                                                    <span class="label label-default">web</span>
+                                                    <span class="label label-primary">design</span>
+                                                    <span class="label label-success">wordpress</span>
+                                                    <span class="label label-info">photoshop</span>
+                                                    <span class="label label-warning">ui/ux</span>
+                                                    <span class="label label-danger">Danger</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12">
+                                            <div class='popup-image-container'>
+                                                <img src="assets/images/port/port001.jpg" title="Sankalana Holdings web site" class="portfolio-big img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of a portfolio item -->
+
+                    <!-- start of a portfolio item -->
+                    <div class="item w4" style="margin: 5px;">
+                        <div class="hover-content">
+                            <h3>Awseome Project Name</h3>
+                        </div>
+                        <div class="hidden-item">
+                            <img src="assets/images/port/port002.jpg" title="Blackwelling Recruitment" data-axisX="50" data-axisY="10">
+                        </div>
+                        <div class="modal fade portfolio-popup" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="portfolio-item-description">
+                                                <h3>Awseome Project Name</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae porttitor dolor, sit amet consectetur lectus. Nunc vitae viverra enim, non blandit tortor. Suspendisse convallis. </p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae porttitor dolor, sit amet consectetur lectus. Nunc vitae viverra enim, non blandit tortor. Suspendisse convallis. </p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae porttitor dolor, sit amet consectetur lectus. Nunc vitae viverra enim, non blandit tortor. Suspendisse convallis. </p>
+                                                <div class="labels">
+                                                    <span class="label label-default">web</span>
+                                                    <span class="label label-primary">design</span>
+                                                    <span class="label label-success">wordpress</span>
+                                                    <span class="label label-info">photoshop</span>
+                                                    <span class="label label-warning">ui/ux</span>
+                                                    <span class="label label-danger">Danger</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12">
+                                            <div class='popup-image-container'>
+                                                <img src="assets/images/port/port002.jpg" title="Blackwelling Recruitment" class="portfolio-big img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of a portfolio item -->
+
+                    <!-- start of a portfolio item -->
+                    <div class="item w4" style="margin: 5px;">
+                        <div class="hover-content">
+                            <h3>Awseome Project Name</h3>
+                        </div>
+                        <div class="hidden-item">
+                            <img src="assets/images/port/port003.jpg" title="Blackwelling Recruitment" data-axisX="50" data-axisY="10">
+                        </div>
+                        <div class="modal fade portfolio-popup" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="portfolio-item-description">
+                                                <h3>Awseome Project Name</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae porttitor dolor, sit amet consectetur lectus. Nunc vitae viverra enim, non blandit tortor. Suspendisse convallis. </p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae porttitor dolor, sit amet consectetur lectus. Nunc vitae viverra enim, non blandit tortor. Suspendisse convallis. </p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae porttitor dolor, sit amet consectetur lectus. Nunc vitae viverra enim, non blandit tortor. Suspendisse convallis. </p>
+                                                <div class="labels">
+                                                    <span class="label label-default">web</span>
+                                                    <span class="label label-primary">design</span>
+                                                    <span class="label label-success">wordpress</span>
+                                                    <span class="label label-info">photoshop</span>
+                                                    <span class="label label-warning">ui/ux</span>
+                                                    <span class="label label-danger">Danger</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12">
+                                            <div class='popup-image-container'>
+                                                <img src="assets/images/port/port003.jpg" title="Blackwelling Recruitment" class="portfolio-big img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of a portfolio item -->
+
+                    <!-- start of a portfolio item -->
+                    <div class="item w4" style="margin: 5px;">
+                        <div class="hover-content">
+                            <h3>Awseome Project Name</h3>
+                        </div>
+                        <div class="hidden-item">
+                            <img src="assets/images/port/port004.jpg" title="Blackwelling Recruitment" data-axisX="50" data-axisY="10">
+                        </div>
+                        <div class="modal fade portfolio-popup" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="portfolio-item-description">
+                                                <h3>Awseome Project Name</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae porttitor dolor, sit amet consectetur lectus. Nunc vitae viverra enim, non blandit tortor. Suspendisse convallis. </p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae porttitor dolor, sit amet consectetur lectus. Nunc vitae viverra enim, non blandit tortor. Suspendisse convallis. </p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae porttitor dolor, sit amet consectetur lectus. Nunc vitae viverra enim, non blandit tortor. Suspendisse convallis. </p>
+                                                <div class="labels">
+                                                    <span class="label label-default">web</span>
+                                                    <span class="label label-primary">design</span>
+                                                    <span class="label label-success">wordpress</span>
+                                                    <span class="label label-info">photoshop</span>
+                                                    <span class="label label-warning">ui/ux</span>
+                                                    <span class="label label-danger">Danger</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12">
+                                            <div class='popup-image-container'>
+                                                <img src="assets/images/port/port004.jpg" title="Blackwelling Recruitment" class="portfolio-big img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of a portfolio item -->
+
+                    <!-- start of a portfolio item -->
+                    <div class="item w4" style="margin: 5px;">
+                        <div class="hover-content">
+                            <h3>Awseome Project Name</h3>
+                        </div>
+                        <div class="hidden-item">
+                            <img src="assets/images/port/port005.jpg" title="Blackwelling Recruitment" data-axisX="50" data-axisY="10">
+                        </div>
+                        <div class="modal fade portfolio-popup" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="portfolio-item-description">
+                                                <h3>Awseome Project Name</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae porttitor dolor, sit amet consectetur lectus. Nunc vitae viverra enim, non blandit tortor. Suspendisse convallis. </p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae porttitor dolor, sit amet consectetur lectus. Nunc vitae viverra enim, non blandit tortor. Suspendisse convallis. </p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae porttitor dolor, sit amet consectetur lectus. Nunc vitae viverra enim, non blandit tortor. Suspendisse convallis. </p>
+                                                <div class="labels">
+                                                    <span class="label label-default">web</span>
+                                                    <span class="label label-primary">design</span>
+                                                    <span class="label label-success">wordpress</span>
+                                                    <span class="label label-info">photoshop</span>
+                                                    <span class="label label-warning">ui/ux</span>
+                                                    <span class="label label-danger">Danger</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12">
+                                            <div class='popup-image-container'>
+                                                <img src="assets/images/port/port005.jpg" title="Blackwelling Recruitment" class="portfolio-big img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of a portfolio item -->
+
+                    <!-- start of a portfolio item -->
+                    <div class="item w4" style="margin: 5px;">
+                        <div class="hover-content">
+                            <h3>Awseome Project Name</h3>
+                        </div>
+                        <div class="hidden-item">
+                            <img src="assets/images/port/port006.jpg" title="Blackwelling Recruitment" data-axisX="50" data-axisY="10">
+                        </div>
+                        <div class="modal fade portfolio-popup" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="portfolio-item-description">
+                                                <h3>Awseome Project Name</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae porttitor dolor, sit amet consectetur lectus. Nunc vitae viverra enim, non blandit tortor. Suspendisse convallis. </p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae porttitor dolor, sit amet consectetur lectus. Nunc vitae viverra enim, non blandit tortor. Suspendisse convallis. </p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae porttitor dolor, sit amet consectetur lectus. Nunc vitae viverra enim, non blandit tortor. Suspendisse convallis. </p>
+                                                <div class="labels">
+                                                    <span class="label label-default">web</span>
+                                                    <span class="label label-primary">design</span>
+                                                    <span class="label label-success">wordpress</span>
+                                                    <span class="label label-info">photoshop</span>
+                                                    <span class="label label-warning">ui/ux</span>
+                                                    <span class="label label-danger">Danger</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12">
+                                            <div class='popup-image-container'>
+                                                <img src="assets/images/port/port006.jpg" title="Blackwelling Recruitment" class="portfolio-big img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of a portfolio item -->
+
+                    <!-- start of a portfolio item -->
+                    <div class="item w4" style="margin: 5px;">
+                        <div class="hover-content">
+                            <h3>Awseome Project Name</h3>
+                        </div>
+                        <div class="hidden-item">
+                            <img src="assets/images/port/port007.jpg" title="Blackwelling Recruitment" data-axisX="50" data-axisY="10">
+                        </div>
+                        <div class="modal fade portfolio-popup" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="portfolio-item-description">
+                                                <h3>Awseome Project Name</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae porttitor dolor, sit amet consectetur lectus. Nunc vitae viverra enim, non blandit tortor. Suspendisse convallis. </p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae porttitor dolor, sit amet consectetur lectus. Nunc vitae viverra enim, non blandit tortor. Suspendisse convallis. </p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae porttitor dolor, sit amet consectetur lectus. Nunc vitae viverra enim, non blandit tortor. Suspendisse convallis. </p>
+                                                <div class="labels">
+                                                    <span class="label label-default">web</span>
+                                                    <span class="label label-primary">design</span>
+                                                    <span class="label label-success">wordpress</span>
+                                                    <span class="label label-info">photoshop</span>
+                                                    <span class="label label-warning">ui/ux</span>
+                                                    <span class="label label-danger">Danger</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12">
+                                            <div class='popup-image-container'>
+                                                <img src="assets/images/port/port007.jpg" title="Blackwelling Recruitment" class="portfolio-big img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of a portfolio item -->
+
+
+
+                    <!-- start of a portfolio item -->
+                    <div class="item w4" style="margin: 5px;">
+                        <div class="hover-content">
+                            <h3>Awseome Project Name</h3>
+                        </div>
+                        <div class="hidden-item">
+                            <img src="assets/images/port/port008.jpg" title="Blackwelling Recruitment" data-axisX="50" data-axisY="10">
+                        </div>
+                        <div class="modal fade portfolio-popup" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="portfolio-item-description">
+                                                <h3>Awseome Project Name</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae porttitor dolor, sit amet consectetur lectus. Nunc vitae viverra enim, non blandit tortor. Suspendisse convallis. </p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae porttitor dolor, sit amet consectetur lectus. Nunc vitae viverra enim, non blandit tortor. Suspendisse convallis. </p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae porttitor dolor, sit amet consectetur lectus. Nunc vitae viverra enim, non blandit tortor. Suspendisse convallis. </p>
+                                                <div class="labels">
+                                                    <span class="label label-default">web</span>
+                                                    <span class="label label-primary">design</span>
+                                                    <span class="label label-success">wordpress</span>
+                                                    <span class="label label-info">photoshop</span>
+                                                    <span class="label label-warning">ui/ux</span>
+                                                    <span class="label label-danger">Danger</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12">
+                                            <div class='popup-image-container'>
+                                                <img src="assets/images/port/port008.jpg" title="Blackwelling Recruitment" class="portfolio-big img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of a portfolio item -->
+
+
+                </div>
+
             </div>
         </div>
         <!-- conteiner -->
     </section>
+
 
     <!--====== PRICING PART ENDS ======-->
 
@@ -236,22 +579,24 @@
 
     <section id="contact" class="contact-area">
         <div class="container ">
-            <div class="row justify-content-center ">
+            <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="title text-center">ติดต่อ</h1>
+                    <h1 class="text-center">ติดต่อ</h1>
                     <div class="row">
-                        <div class="col-lg-6 ">
-                            <div class="text-center" style="padding-top: 30px;">
-                                <p class="text ">549 Happy Land Town House 4 Alley, Khwaeng Khlong Chan, Khet Bang Kapi, Krung Thep Maha Nakhon 10240</p>
+                        <div class="col-lg-6 " style="padding-top: 30px;">
+                            <div class=" card ">
+                                <div class="card-body " style=" height: 350px;">
+                                    <p><img src="assets/images/location.png" alt="location" height="25px"> 549 Happy Land Town House 4 Alley, Khwaeng Khlong Chan, Khet Bang Kapi, Krung Thep Maha Nakhon 10240</p>
+                                    <p style="padding-top: 20px; "><img src="assets/images/mail.png" alt="email" height="25px"> Email : business.rt@gmail.com</p>
+                                    <p style="padding-top: 20px; "><img src="assets/images/phone.png" alt="phone" height="25px"> Tel : 0944926802</p>
+                                </div>
                             </div>
                             <!-- section title -->
                         </div>
-                        <div class="col-lg-6 ">
-                            <div style="padding-top: 30px;">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d968.7385318775471!2d100.64212172922421!3d13.781638901890881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d62221b39f43d%3A0x35af0d6151c0c42d!2s549%20Soi%20Happy%20Land%20Town%20House%204%2C%20Khwaeng%20Khlong%20Chan%2C%20Khet%20Bang%20Kapi%2C%20Krung%20Thep%20Maha%20Nakhon%2010240!5e0!3m2!1sen!2sth!4v1637165945779!5m2!1sen!2sth"
-                                    width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                                <!-- section title -->
-                            </div>
+                        <div class="col-lg-6 " style="padding-top: 30px; ">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d968.7385318775471!2d100.64212172922421!3d13.781638901890881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d62221b39f43d%3A0x35af0d6151c0c42d!2s549%20Soi%20Happy%20Land%20Town%20House%204%2C%20Khwaeng%20Khlong%20Chan%2C%20Khet%20Bang%20Kapi%2C%20Krung%20Thep%20Maha%20Nakhon%2010240!5e0!3m2!1sen!2sth!4v1637165945779!5m2!1sen!2sth "
+                                width="400 " height="350 " style="border:0; " allowfullscreen=" " loading="lazy "></iframe>
+                            <!-- section title -->
                         </div>
                     </div>
                 </div>
@@ -271,7 +616,7 @@
             <div class="container ">
                 <div class="row ">
                     <div class="col-lg-12 ">
-                        <div class="copyright text-center" style="padding-top: 50px; padding-bottom: 50px;">
+                        <div class="copyright text-center " style="padding-top: 50px; padding-bottom: 50px; ">
                             <p class="text ">hope you will contact back thank you.</a>
                             </p>
                         </div>
@@ -317,6 +662,11 @@
 
     <!--====== Main js ======-->
     <script src="assets/js/main.js "></script>
+
+    <script type="text/javascript " src="assets/js/jquery.js "></script>
+    <script type="text/javascript " src="assets/js/bootstrap.min.js "></script>
+    <script type="text/javascript " src="assets/js/singlepagenav.js "></script>
+    <script type="text/javascript " src="assets/js/queryloader.js "></script>
 
 </body>
 

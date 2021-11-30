@@ -424,19 +424,19 @@ p {
 }
 
 .header-hero {
-    height: 550px;
+    height: 450px;
     position: relative;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-hero {
-        height: 500px;
+        height: 400px;
     }
 }
 
 @media (max-width: 767px) {
     .header-hero {
-        height: 400px;
+        height: 300px;
     }
 }
 
@@ -577,8 +577,8 @@ p {
 ===========================*/
 
 .services-area {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     position: relative;
 }
 
@@ -702,8 +702,8 @@ p {
 ===========================*/
 
 .pricing-area {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #f4f6f7;
 }
 
@@ -1065,21 +1065,21 @@ p {
 ===========================*/
 
 .contact-area {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .contact-area {
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 }
 
 @media (max-width: 767px) {
     .contact-area {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 }
 
